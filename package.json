@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss -i ./index.css -o ./dist/output.css",
     "dev": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch"
   },
   "keywords": [],
